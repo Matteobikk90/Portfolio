@@ -1,5 +1,16 @@
 body {
   font-family: 'Lobster', cursive;
-  background-color: black;
+  background:url("../images/sfondo.jpg");
   background-size: cover;
+}
+
+h2 {
+  text-align: center;
+  color: grey;
+  font-size: 40px;
+}
+
+.container {
+  
+  
 }
