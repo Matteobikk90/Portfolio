@@ -1,16 +1,66 @@
 body {
-  font-family: 'Lobster', cursive;
+  font-family: 'Architects Daughter', cursive;
   background:url("../images/sfondo.jpg");
   background-size: cover;
 }
 
-h2 {
+.name {
+  position: absolute;
+  color: rgb(32,0,0);
   text-align: center;
-  color: grey;
-  font-size: 40px;
+  font-size: 60px;
+  margin-left: 600px;
+  margin-top: 45px;
+}
+
+.surname {
+  color: rgb(32,0,0);
+  position: absolute;
+  margin-top: 341px;
+  margin-left: 124px;
+  font-size: 60px;
 }
 
 .container {
-  
-  
+	position: relative;
+    width: 862px;
+    height: 606px;
+    margin-left: 264px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 45px;
+}
+
+.about-me {
+	position: absolute;
+	color: rgb(24,24,24);
+  text-align: center;
+  font-size: 60px;
+    width: 350px;
+    height: 201px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-left: 45px;
+    margin-top: 45px;
+}
+
+.projects {
+	position: absolute;
+	color: rgb(24,24,24);
+  text-align: center;
+  font-size: 60px;
+    width: 350px;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-left: 475px;
+    margin-top: 150px;
+}
+
+.contact {
+	position: absolute;
+	color: rgb(24,24,24);
+  text-align: center;
+  font-size: 60px;
+    width: 350px;
+    height: 127px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 479px;
 }
