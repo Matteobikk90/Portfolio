@@ -8,8 +8,31 @@
 // });
 $ (document).ready(function() {
 
+// $(function() {
+// 	var engine = new RainyDay({
+// 		image: element,
+
+// 		parentElement:someDiv,
+
+// 		crop:[0, 0, 50, 60],
+
+// 		blur:10,
+
+// 		opacity: 1
+
+// });
+// engine.rain(
+// 	[
+// 	   [1, 0, 20],
+// 	   [3, 3, 1]
+// 	   ],
+// 	   100);
+// });
+
 $(".contact, .about-me, .projects").mouseover(function () {
       $(this).effect("shake");
 }); 
 
 });
+
+
