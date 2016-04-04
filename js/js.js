@@ -33,6 +33,18 @@ $(".contact, .about-me, .projects").mouseover(function () {
       $(this).effect("shake");
 }); 
 
+$(".contact").click(function(){
+      document.location.href = "contact.html";
+});
+
+$(".about-me").click(function(){
+      document.location.href = "about-me.html";
+});
+
+$(".projects").click(function(){
+      document.location.href = "projects.html";
+});
+
 });
 
 
