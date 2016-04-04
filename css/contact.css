@@ -1,0 +1,60 @@
+body {
+  font-family: 'Architects Daughter', cursive;
+  background-image: url("http://thumbs.dreamstime.com/x/contact-tag-cloud-details-customer-information-support-call-us-30832971.jpg");
+}
+
+h3 {
+  color: firebrick;
+}
+
+#email {
+  color: chocolate;
+}
+
+#linkedin{
+  color: cornflowerblue;
+}
+
+#github{
+  color:lavender;
+
+}
+
+main {
+  width: 960px;
+  margin: 30px auto;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-top: 115px;
+}
+
+.info-container {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 257px;
+}
+
+.contact-padding {
+  padding: 2em;
+}
+
+.contact-img {
+  width: 86%;
+  position: relative;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+.img-container{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#nameContact {
+  margin-left: 206px;
+}
+
+#icon {
+  width: 25px;
+  height: 25px;
+}
