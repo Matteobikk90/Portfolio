@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+  <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/contact.css">
+</head>
+
+
+    <!-- NAV BAR / HEADER -->
+
+<body ng-controller="CinemasController as cinemas">
+  <header>
+    <nav>
+      <ul>
+        <li ng-click="cinemas.toggleShowCinemas()">
+          <a href="index.html">Cinem@pp</a>
+        </li>
+        <li>
+          <a href="turin.html" id="turin">Turin Cinema Musuem</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+    <!-- CONTACT PAGE CONTAINER   -->
+
+  <div class="container">
+    <div class="row contact-padding">
+        <div class="img-container col-md-3">
+          <img class="contact-img" src="./images/matteo.jpg" class="photo" alt=""/>
+        </div> 
+              
+        <div class="info-container col-md-9">
+          <h3 id="nameContact">Matteo Soresini</h3>
+          <img id="icon" src="./images/mail.png">
+          <p><a id="email" href="mailto:address@addresss.com">matteo.soresini@hotmail.it</a></p>
+          <br><img id="icon" src="./images/linkedin.png">
+          <p><a id="linkedin" href="https://it.linkedin.com/in/matteosoresini90">https://it.linkedin.com/in/matteosoresini90</a></p>
+          <br><img id="icon" src="./images/github.png">
+          <p><a id="github" href="https://github.com/Matteobikk90">https://github.com/Matteobikk90</a></p>
+        </div>         
+    </div>
+  </div>
+
+</body>
+</html>
