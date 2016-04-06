@@ -55,6 +55,10 @@ body {
     height: 144px;
     margin-left: 513px;
     margin-top: 358px;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
 }
 .contact {
     position: absolute;

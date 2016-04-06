@@ -9,3 +9,9 @@ p {
 	color: white;
 	font-size: 40px;
 }
+
+#img-about-me {
+	background-image: url("../images/aboutMe.png");
+	width: 100%;
+	height: 500px;
+}
