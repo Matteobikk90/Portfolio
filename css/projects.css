@@ -98,7 +98,7 @@ body {
     float: right;
 }
 
-#project3-img {
+#project3-img { 
 	background-image: url("../images/project3.png");
 	background-size: cover;
 	background-position: center;
