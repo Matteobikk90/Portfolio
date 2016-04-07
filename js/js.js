@@ -45,6 +45,8 @@ $(".projects").click(function(){
       document.location.href = "projects.html";
 });
 
+// $('#about-me-circle').circleType({radius: 384});
+
 });
 
 
