@@ -9,16 +9,18 @@ body {
   color: white;
   text-align: center;
   font-size: 47px;
-  margin-left: 600px;
+  margin-left: -244px;
   margin-top: -17px;
+  font-family: fantasy;
 }
 
 .surname {
   color: white;
   position: absolute;
-  margin-top: 341px;
-  margin-left: -194px;
+  margin-top: -16px;
+  margin-left: -70px;
   font-size: 47px;
+  font-family: fantasy;
 }
 
 .container {
